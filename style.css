@@ -1,0 +1,342 @@
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/poppins-v20-latin-regular.woff2') format('woff2'),
+        url('./fonts/poppins-v20-latin-regular.woff') format('woff');
+}
+
+/* poppins-600 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./fonts/poppins-v20-latin-600.woff2') format('woff2'),
+        url('./fonts/poppins-v20-latin-600.woff') format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    background-color: black;
+}
+
+.contanier {
+    width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+
+}
+
+.site-header {
+    padding-top: 60px;
+    padding-bottom: 131px;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.header-list {
+
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.header-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-link {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    opacity: 0.67;
+}
+
+/* SECTION STTYLES PART */
+.site-section {
+    padding-bottom: 190px;
+    background-image: url("./images/girl.png");
+    background-repeat: no-repeat;
+    background-size: 780px 1170px;
+    background-position-x: calc(50% + 310px);
+    background-position-y: calc(50% + 70px);
+
+
+}
+
+.site-wrapper {
+    display: flex;
+    position: relative;
+    align-items: center;
+
+}
+
+.section-new-wrap {
+
+    display: flex;
+    margin-bottom: 31px;
+    align-items: center;
+    background-color: #ffffff15;
+    width: 329px;
+    border-radius: 200px;
+
+}
+
+.new-link {
+    margin-right: 25px;
+    position: relative;
+    z-index: 2;
+    padding: 4px 10px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #25AB75;
+    border-radius: 200px;
+
+}
+
+.new-link-desc {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.heding-box {
+    width: 814px;
+    margin-bottom: 42px;
+
+}
+
+.section-text {
+    margin: 0;
+    margin-bottom: 42px;
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 170px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+}
+
+.section-paragraph-part {
+    width: 600px;
+}
+
+.section-paragraph {
+    margin: 0;
+    margin-bottom: 74px;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.section-link {
+    display: inline-block;
+    padding: 24px 61px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #ffffff15;
+    border-radius: 10px;
+}
+
+.section-link:not(:last-child) {
+    /* display: inline-block; */
+    margin-right: 30px;
+    padding: 24px 43px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #25AB75;
+    border-radius: 10px;
+}
+
+.time-box-wrap {
+    position: relative;
+    top: -100px;
+
+}
+
+.section-time-part {
+    margin-bottom: 20px;
+    width: 166px;
+    padding: 20px 30px;
+    background-color: #ffffff15;
+    border-radius: 20px;
+}
+
+
+
+.section-time {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height, or 100% */
+    letter-spacing: 1px;
+    color: #FFE642;
+
+
+}
+
+.time-text {
+    margin: 0;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+
+}
+
+.section-caloris-part {
+    width: 166px;
+    padding: 20px 30px;
+    background-color: #ffffff15;
+    border-radius: 20px;
+}
+
+.section-number {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height, or 100% */
+    letter-spacing: 1px;
+    color: #FB1351;
+}
+.section-second{
+    padding-bottom: 100px;
+}
+.section-second-text-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-seond-text {
+    margin: 0;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+
+}
+
+.section-second-desc {
+    margin: 0;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    opacity: 0.67;
+}
+
+.section-second-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-second-item {
+    position: relative;
+    margin-bottom: 50px;
+
+}
+
+.section-second-link {
+    display: block;
+    margin-bottom: 32px;
+    text-decoration: none;
+}
+
+.section-second-img {
+
+    display: block;
+
+}
+
+.section-second-text-last {
+
+    position: absolute;
+    margin: 0;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 45px;
+    /* identical to box height, or 90% */
+    letter-spacing: 0.3px;
+
+    color: #FFFFFF;
+    top: 220px;
+    left: 20px;
+
+}
+
+.section-second-desc-last {
+    margin: 0;
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    opacity: 0.67;
+    margin-left: 20px;
+}
+
+.patxod {
+    position: absolute;
+    top: 220px;
+    right: 0;
+    padding: 10px 0 0 10px;
+    text-align: end;
+    background-color: #040404;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
+    letter-spacing: 1.36667px;
+    color: #FFFFFF;
+    border-radius: 20px 0 0 0;
+
+}
